@@ -1,9 +1,9 @@
 # Middleware
-    Always write the middleware global usable functions at the top otherwise they won't work properly.
+Always write the middleware global usable functions at the top otherwise they won't work properly.
 
-    Writing a middleware function with only if statement kindly use the return otherwise the next code will execute and create unnecessary issuess eg
+Writing a middleware function with only if statement kindly use the return otherwise the next code will execute and create unnecessary issuess eg
 
-    ```javascript
+```javascript
 
     app.get('/',auth, (req,res) => { console.log(req.admin); })
 
@@ -29,7 +29,7 @@
          
     }
 
-    ```
+ ```
 
 ## Use Rest Client VS code extension to test apis quickly instead of postman
 
