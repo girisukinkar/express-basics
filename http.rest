@@ -1,0 +1,11 @@
+GET http://localhost:4000
+
+###
+
+POST http://localhost:4000/add?name=asdfasdf
+Content-Type: application/json
+
+{
+    "id":1,
+    "name" : "girish"
+}
