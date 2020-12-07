@@ -4,7 +4,7 @@ const app = Express();
 const port = 4000;
 
 //Now these are built in express features
-app.use(Express.json());
+app.use(Express.json());  // We write it here as to use it globally
 app.use(Express.urlencoded({extended:true}));
 
 
